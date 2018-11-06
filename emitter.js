@@ -48,7 +48,7 @@ function getEmitter() {
          */
         on: function (event, context, handler) {
             console.info(event, context, handler);
-            isSubscribe(subscribe, event, context, handler, Infinity);
+            isSubscribe(subscribe, event, context, handler, Infinity, 1);
 
             return this;
         },
