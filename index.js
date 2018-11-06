@@ -100,7 +100,6 @@ lecturer
     .emit('slide.text')
     .emit('slide.text')
     .emit('slide.text');
-
 lecturer.emit('end');
 // Sam(20,102); Sally(70,191); Bill(40,62); Sharon(90,40)
 
